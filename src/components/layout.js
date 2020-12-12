@@ -25,21 +25,24 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
         style={{
           margin: `0 auto`,
           maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
+          minHeight: '100vh',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          padding: '5vh 1rem 3vh 1rem'
         }}
       >
         <main>{children}</main>
+        <div style={{flex: '1 0 0'}}></div>
         <footer style={{
-          marginTop: `2rem`
+          marginTop: `2rem`,
+          textAlign: 'center'
         }}>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <a href="https://sailingtomars.com/" style={{fontSize: "0.5rem", color: '#333', textDecoration: 'none'}}>made by brother spense</a>
         </footer>
       </div>
     </>
