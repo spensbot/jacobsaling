@@ -1,10 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
-import Jacob from '../components/jacob'
 import Hood from '../components/hood'
 import jacob from '../images/jacob.jpg'
 
@@ -16,7 +13,7 @@ const IndexPage = () => (
       <div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center', margin: '0 -1rem'}}>
         <div style={{width: '15rem', maxWidth: '80vw', height: '15rem', margin: '1rem'}}>
           {/* <Jacob /> */}
-          <img src={jacob} style={{height: '100%', width: '100%', objectFit: 'cover', borderRadius: '50%'}}/>
+          <img alt="Jacob Saling, Flight Instructor" src={jacob} style={{height: '100%', width: '100%', objectFit: 'cover', borderRadius: '50%'}}/>
         </div>
         <div style={{flex: '1 0 15rem', display: 'flex', flexDirection: 'column', justifyContent: 'center', margin: '1rem'}}>
           <p>Name's Jacob,</p>
