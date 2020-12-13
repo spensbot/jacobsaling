@@ -17,7 +17,7 @@ const IndexPage = () => (
         </div>
         <div style={{flex: '1 0 15rem', display: 'flex', flexDirection: 'column', justifyContent: 'center', margin: '1rem'}}>
           <p>Name's Jacob,</p>
-          <p>I'm a flight instructor based out of <a href="http://gorgewindsinc.com/">gorge winds aviation</a> in Troutdale, Or</p>
+          <p>I'm a Certified Flight Instructor based out of <a href="http://gorgewindsinc.com/">Gorge Winds Aviation</a> in Troutdale, Or.</p>
           <p>I love flying, and I love sharing that passion with my students. Give me a call, and we'll get you into a plane.</p>
         </div>
       </div>
@@ -32,8 +32,8 @@ const IndexPage = () => (
       <Hood />
       <div style={{padding: '1rem', position: 'absolute', top: '60%', bottom: 0, left: 0, right: 0, color: '#fff', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
         <h1>Fly with me</h1>
-        <p>503 729 3476</p>
-        <p>jacob0saling@gmail.com</p>
+        <p style={{margin: '0 0 0.5rem'}}>503 729 3476</p>
+        <p style={{margin: '0 0 0.5rem'}}>jacob0saling@gmail.com</p>
       </div>
     </div>
 
