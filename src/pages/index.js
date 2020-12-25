@@ -19,11 +19,18 @@ const IndexPage = () => (
           <p>Name's Jacob,</p>
           <p>I'm a Certified Flight Instructor based out of <a href="http://gorgewindsinc.com/">Gorge Winds Aviation</a> in Troutdale, Or.</p>
           <p>I love flying, and I love sharing that passion with my students. Give me a call, and we'll get you into a plane.</p>
+          <p>503-729-3476 | jacob0saling@gmail.com</p>
         </div>
       </div>
       <div style={{textAlign:'center', margin: '0 0 3rem 0'}}>
         <hr/>
-        <p style={{margin: '2rem 0'}}>Private | Commercial | Multi-Engine</p>
+        {/* <p style={{margin: '2rem 0'}}>Private | Commercial | Instrument | Multi-Engine</p> */}
+        <ul style={{listStyle: 'none', marginLeft: 0}}>
+          <li>Private</li>
+          <li>Commercial</li>
+          <li>Instrument</li>
+          <li>Multi-Engine</li>
+        </ul>
         <hr/>
       </div>
     </div>
